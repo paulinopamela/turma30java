@@ -1,2 +1,2 @@
 # turma30java
-Turma 30 de Java Jr. da Generation Brasil
+Turma 30 do Bootcamp de Java Jr. da Generation Brasil
