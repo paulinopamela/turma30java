@@ -186,6 +186,11 @@ inclua biblioteca Matematica --> Mat
 				limpa()
 				escreva("*******DONNUTIX*******\n\n")	
 				escreva("*** NOTA FISCAL *** \n\n")
+				para(inteiro x=0;x<10;x++){												//Laço para exibir os produtos pedidos na nota
+					se(PRODUTOFINAL[x]!= ""){											//condicional para exibir APENAS os produtos no Vetor de produtos no carrinho
+						escreva(QTDEFINAL[x], " ", PRODUTOFINAL[x],"\t R$",VALORFINAL[x],"\n")	//Escreve os produtos do carrinho na tela
+					}
+				}
 				escreva("\nValor total do produto: R$", valorFinal)
 				escreva("\nImpostos sobre nota: R$", Mat.arredondar((valorFinal*0.09), 2))
 				escreva("\nValor do desconto: R$", Mat.arredondar(valorFinal*0.1,2))
@@ -200,6 +205,11 @@ inclua biblioteca Matematica --> Mat
 				limpa()
 				escreva("*******DONNUTIX*******\n\n")	
 				escreva("*** NOTA FISCAL *** \n\n")
+				para(inteiro x=0;x<10;x++){												//Laço para exibir os produtos pedidos na nota
+					se(PRODUTOFINAL[x]!= ""){											//condicional para exibir APENAS os produtos no Vetor de produtos no carrinho
+						escreva(QTDEFINAL[x], " ", PRODUTOFINAL[x],"\t R$",VALORFINAL[x],"\n")	//Escreve os produtos do carrinho na tela
+					}
+				}
 				escreva("\nValor total do produto: R$",valorFinal)
 				escreva("\nImpostos sobre a nota: R$",Mat.arredondar((valorFinal*0.09), 2))
 				escreva("\nValor do acréscimo: R$", Mat.arredondar(valorFinal*0.1,2))
@@ -214,6 +224,11 @@ inclua biblioteca Matematica --> Mat
 				limpa()
 				escreva("*******DONNUTIX*******\n\n")	
 				escreva("*** NOTA FISCAL *** \n\n")
+				para(inteiro x=0;x<10;x++){												//Laço para exibir os produtos pedidos na nota
+					se(PRODUTOFINAL[x]!= ""){											//condicional para exibir APENAS os produtos no Vetor de produtos no carrinho
+						escreva(QTDEFINAL[x], " ", PRODUTOFINAL[x],"\t R$",VALORFINAL[x],"\n")	//Escreve os produtos do carrinho na tela
+					}
+				}
 				escreva("\nValor total do produto: R$", valorFinal)
 				escreva("\nImpostos sobre a nota: R$",Mat.arredondar((valorFinal*0.09), 2))
 				escreva("\nValor do acréscimo: R$", Mat.arredondar((valorFinal*0.15),2))
@@ -264,7 +279,7 @@ inclua biblioteca Matematica --> Mat
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 574; 
+ * @POSICAO-CURSOR = 12690; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
@@ -275,18 +290,7 @@ inclua biblioteca Matematica --> Mat
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 11865; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 14307; 
+ * @POSICAO-CURSOR = 15247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
