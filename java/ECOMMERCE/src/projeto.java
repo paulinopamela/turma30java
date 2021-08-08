@@ -63,7 +63,7 @@ public class projeto {
 			do{
 				System.out.println("\t\t    * DONNUTIX *");
 				System.out.println("\t\t~ Seu Donnut, nosso Mix ~");
-				System.out.println("Deseja fazer compras? Digite S para sim ou digite N para não.");
+				System.out.println("Deseja fazer compras? [S/ N].");
 				sn = leia.next().toUpperCase().charAt(0);
 				if (sn == 'S') {
 					do {
@@ -98,7 +98,7 @@ public class projeto {
 							if(compra.equals(PRODUTO[x]) || compra.equals(CODIGO[x])) {
 								System.out.println("\nQual a quantidade? ");
 								quantidade = leia.nextInt();
-								System.out.println("\nConfirma a quantidade? ");
+								System.out.println("\nConfirma a quantidade? [S/ N]");
 								sn = leia.next().toUpperCase().charAt(0);
 								if(sn=='S') {
 									if(quantidade>0 && quantidade<=ESTOQUE[x]) {
@@ -142,7 +142,7 @@ public class projeto {
 							}
 						}
 						
-						System.out.print("\nDeseja continuar comprando? Digite S para sim ou N para não.");
+						System.out.print("\nDeseja continuar comprando? [S/N]");
 						sn = leia.next().toUpperCase().charAt(0);
 						
 					}while(sn == 'S');
