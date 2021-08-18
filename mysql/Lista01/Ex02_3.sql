@@ -1,0 +1,1 @@
+update tb_produto set preco=600.00 where id=2;
