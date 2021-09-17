@@ -1,0 +1,82 @@
+/*Estilo da página index*/
+.container1{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row;
+    margin-top: 60px;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a{
+    padding:15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover{
+    color: gray;
+}
+
+#titulo{
+padding-left: 150px;
+}
+
+#titulo2{
+    margin-bottom: 20px;
+}
+
+.texto1{
+    padding-right: 80px;
+}
+.texto2{
+    padding-left: 80px;
+    text-align: right;
+}
+
+#imgnina{
+    width: 450px;
+    height: 450px;
+}
+
+.footer{
+    text-align: center;
+}
+
+#ft{
+    padding-top: 35px;
+}
+
+.tm-social{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+}
+
+.titulocontato{
+    text-align: center;
+}
+
+.containercontato{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+#contato{
+    padding-left: 100px;
+}
+
+#endereco{
+    padding-left: 150px;
+}
