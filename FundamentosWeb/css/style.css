@@ -80,3 +80,23 @@ padding-left: 150px;
 #endereco{
     padding-left: 150px;
 }
+
+#nome{
+    width: 100%;
+}
+
+#email{
+    width: 100%;
+}
+
+#assunto{
+    width: 100%;
+}
+
+#txtNome{
+    padding: 7px;
+}
+
+#txtEmail{
+    padding: 7px;
+}
